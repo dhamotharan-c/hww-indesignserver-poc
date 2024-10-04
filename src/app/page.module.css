@@ -1,0 +1,26 @@
+.mainLayout{
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.forRequestBlock {
+    height: calc(100vh - 8rem);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #958bb6a6;
+    border-radius: 26px;
+    max-width: 1200px;
+    width: 100%;
+}
+.buttonBlock{
+    margin: 2rem 0;
+    padding: 0.5rem 0.85rem;
+    background-color: #191528;
+    border: none;
+}
